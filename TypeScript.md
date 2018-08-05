@@ -1,6 +1,7 @@
 # TypeScript
 
 - [wiki](https://ja.wikipedia.org/wiki/TypeScript)
+- [公式](https://www.typescriptlang.org/)
 - [ドットインストール](https://dotinstall.com/lessons/basic_typescript)
 
 ## 概要
