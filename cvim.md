@@ -11,10 +11,12 @@
 |j,k|↑, ↓|
 |w,s|↑, ↓|
 |h,l|←, →|
+|0,$|最←, 最→|
 |H,L|進む, 戻る|
 |J,K|タブ ←, →|
 |gT,gt|タブ ←, →|
 |gg,G|ページ 最上部, 最下部|
+|gi,gI|ページのinputにフォーカス 最初, 最後|
 
 ## 閉じる
 |コマンド|説明|
@@ -25,6 +27,21 @@
 |title|コマンド|移動コマンド|移動コマンド説明|
 |---|---|---|---|
 |ページ内検索|/(対象文字列)|n, N|次, 前|
+|||zz|center page to current search match (middle)|
+|||zt|center page to current search match (top)|
+|||zb|center page to current search match (bottom)|
+
+## linkHint
+|コマンド|説明|
+|---|---|
+|f|現在のタブでLinkを開く|
+|F|新しいタブでLinkを開く|
+|W|新しいwindowでLinkを開く|
+|q|trigger a hover event (mouseover + mouseenter)|
+|Q|trigger a unhover event (mouseout + mouseleave)|
+|mf|open multiple links|
+|my|ank multiple links (open the list of links with P)|
+|;|link foucas をやめる|
 
 ## cvimrc
 
